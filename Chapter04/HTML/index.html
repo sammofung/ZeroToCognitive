@@ -62,6 +62,18 @@
               </div>
             </div>
           </div>
+    <!-- added widget to link to my WVA. Its just a test -->
+    <script src='https://unpkg.com/@watson-virtual-agent/chat-widget@1.6.5/dist/chat.min.js'></script>
+    <script>
+      IBMChat.init({
+        el: 'ibm_chat_root',
+        baseURL: 'https://api.ibm.com/virtualagent/run/api/v1',
+        botID: '974e2d77-5ed5-493f-84ad-9fcd38aef4dd',
+        XIBMClientID: 'd9f60a4d-9f0b-4c98-a456-25223a44d0d1',
+        XIBMClientSecret: 'aD2bX8cF0iC1wF7fO6sU2kL5fH0aQ1yE8pW0lB2pA7gY8aT7eJ'
+      });
+    </script>
+    <div id="ibm_chat_root"></div>
     <!-- Placed at the end of the document so the pages load faster -->
 
     <script src="js/jquery-3.1.0.min.js"></script>
